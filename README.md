@@ -2,8 +2,7 @@
 ## Introduction
 This payment application is a simulation of a card payment system. It allows the user to input their card details, terminal details, and transaction details to make a payment. The application checks the validity of the inputted data and communicates with a server to determine the final transaction status. The transaction can be either approved or declined based on the inputted data and the server's records.
 
-## Project Structure
-
+## Project Structure               
 <object data="Solution Explorer.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="Solution Explorer.pdf">
         <p>Please check the PDF: <a href="Solution Explorer.pdf">Solution Explorer</a>.</p>
@@ -30,7 +29,7 @@ The payment application consists of four main components:
 
 ## Demonstration Videos
 - [card.c](https://drive.google.com/file/d/1DzpeB7fRVA9ni02tApA8KUu2frGgTCmN/view?usp=share_link)
-- [terminal.c]()
+- [terminal.c](https://drive.google.com/file/d/1s6CSPVfvCqQbNXg1ZmhrpcA-C35_tzIw/view?usp=share_link)
 - [server.c]()
 - [app.c]()
 
