@@ -2,6 +2,14 @@
 ## Introduction
 This payment application is a simulation of a card payment system. It allows the user to input their card details, terminal details, and transaction details to make a payment. The application checks the validity of the inputted data and communicates with a server to determine the final transaction status. The transaction can be either approved or declined based on the inputted data and the server's records.
 
+## Project Structure
+
+<object data="Solution Explorer.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="Solution Explorer.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="Solution Explorer.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
 ## Features
 - Input and verify card holder information (name, expiration date, primary account number).
 - Input and verify terminal information (transaction date, transaction amount, maximum transaction amount).
