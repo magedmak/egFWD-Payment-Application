@@ -30,7 +30,7 @@ The payment application consists of four main components:
 ## Demonstration Videos
 - [card.c](https://drive.google.com/file/d/1DzpeB7fRVA9ni02tApA8KUu2frGgTCmN/view?usp=share_link)
 - [terminal.c](https://drive.google.com/file/d/1s6CSPVfvCqQbNXg1ZmhrpcA-C35_tzIw/view?usp=share_link)
-- [server.c]()
+- [server.c](https://drive.google.com/file/d/1eSRU0snKd9s-Bf7WocSZNrigk6DIWOfo/view?usp=share_link)
 - [app.c]()
 
 ## Usage
