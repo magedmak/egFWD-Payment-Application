@@ -35,7 +35,7 @@ The payment application consists of four main components:
 
 ## Usage
 
-To use [**the makefile**](https://github.com/magedmak/egFWD-Payment-Application/tree/main/Payment%20Application#makefile) to build the payment application, you will need to have the [GNU GCC compiler](https://gnuwin32.sourceforge.net/packages/make.htm) installed on your system. You can then use the following commands:
+To use the [**Makefile**](https://github.com/magedmak/egFWD-Payment-Application/tree/main/Payment%20Application#makefile) to build the payment application, you will need to have the [GNU GCC compiler](https://gnuwin32.sourceforge.net/packages/make.htm) installed on your system. You can then use the following commands:
 
 - **make**: This will build the payment application and create an executable file called "main.exe".
 ~~~
