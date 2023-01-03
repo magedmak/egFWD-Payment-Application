@@ -8,3 +8,6 @@ files += main.c
 ## run command
 all:
 	gcc $(files) -o main.exe
+
+clean:
+    rm -f *.o main.exe
