@@ -34,6 +34,21 @@ The payment application consists of four main components:
 - [app.c](https://drive.google.com/file/d/1wmKTeoiQDzB2SzlSPxBvgyWuoR_9Ocl8/view?usp=share_link)
 
 ## Usage
+
+To use the makefile to build the payment application, you will need to have the [GNU GCC compiler](https://gnuwin32.sourceforge.net/packages/make.htm) installed on your system. You can then use the following commands:
+
+- **make**: This will build the payment application and create an executable file called "main.exe".
+~~~
+make
+~~~
+- **make clean**: This will remove any object files and the executable created by the makefile.
+~~~
+make clean
+~~~
+- Once the payment application has been built using the makefile, you can run it by typing **./main.exe** at the command prompt.
+~~~
+./main.exe
+~~~
 To use the payment application, the user needs to provide the following information:
 
 - Cardholder's name: The user needs to input their full name as it appears on their card. The name should be between 20 and 24 characters long.
