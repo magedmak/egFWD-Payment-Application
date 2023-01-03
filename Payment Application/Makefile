@@ -1,13 +1,15 @@
 ## files
-files := src/card/card.c
-files += src/terminal/terminal.c
-files += src/server/server.c
-files += src/app/app.c
-files += main.c
+CC = gcc
+Cfiles := src/card/card.c
+Cfiles += src/terminal/terminal.c
+Cfiles += src/server/server.c
+Cfiles += src/app/app.c
+Cfiles += main.c
 
-## run command
+.PHONY: all clean
+
 all:
-	gcc $(files) -o main.exe
+	$(CC) $(files) -o main.exe
 
 clean:
     rm -f *.o main.exe
