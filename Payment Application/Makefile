@@ -12,4 +12,4 @@ all:
 	$(CC) $(files) -o main.exe
 
 clean:
-    rm -f *.o main.exe
+	rm -f *.o main.exe
