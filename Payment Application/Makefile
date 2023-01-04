@@ -8,7 +8,7 @@ Cfiles += main.c
 .PHONY: all clean
 
 all:
-	$(CC) $(files) -o main.exe
+	$(CC) $(Cfiles) -o main.exe
 
 clean:
 	rm -f *.o main.exe
