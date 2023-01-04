@@ -8,7 +8,9 @@ Cfiles += main.c
 .PHONY: all clean
 
 all:
-	$(CC) $(Cfiles) -o main.exe
+	@$(CC) $(Cfiles) -o main.exe
+	@echo '\nAll files has been built and compiled!\n'
 
 clean:
-	rm -f *.o main.exe
+	@echo '\nmain.exe has been deleted!\n'
+	@-rm -f main.exe
