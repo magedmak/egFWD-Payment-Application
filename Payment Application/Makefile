@@ -7,7 +7,7 @@ Cfiles += main.c
  
 .PHONY: all clean
 
-all:
+compile:
 	@$(CC) $(Cfiles) -o main.exe
 	@echo '\nAll files has been built and compiled!\n'
 
