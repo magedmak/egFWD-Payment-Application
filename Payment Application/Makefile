@@ -5,7 +5,7 @@ Cfiles += src/server/server.c
 Cfiles += src/app/app.c
 Cfiles += main.c
  
-.PHONY: all clean
+.PHONY: compile clean
 
 compile:
 	@$(CC) $(Cfiles) -o main.exe
