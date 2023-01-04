@@ -13,4 +13,19 @@ This makefile has the following structure:
 
 - **'clean'**: This target removes the executable file "main.exe" and prints a message to the console. The **'-rm'** command is used to delete the file, and the **'-f'** flag specifies that the command should run without prompting for confirmation even if the file does not exist. The **'@'** symbol at the beginning of the command tells **'make'** to not print the command itself before running it.
 
-To use this makefile, you will need to have the **'make'** utility installed on your system. You can then run make at the command prompt to build the payment application, or **'make clean'** to clean up any files created by the build process.
+To use this makefile, you will need to have the **'make'** utility installed on your system. You can then run **'make'** at the command prompt to build the payment application, 
+~~~
+>> make
+
+All files has been built and compiled!
+
+>>
+~~~
+or **'make clean'** to clean up any files created by the build process.
+~~~
+>> make clean
+
+main.exe has been deleted!
+
+>>
+~~~
